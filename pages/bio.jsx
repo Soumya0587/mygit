@@ -7,6 +7,7 @@ const Bio = ({data}) => {
     <div>
        <h3>{data.name}</h3>
        <Image src={data.avatar_url} alt="fg" width={100} height={100}/>
+       <h3>{data.bio}</h3>
     </div>
   )
 }
