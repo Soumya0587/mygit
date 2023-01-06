@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react'
 
 const Bio = ({data}) => {
-    console.log(data)
+    
   return (
     <div>
        <h3>{data.name}</h3>
